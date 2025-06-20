@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "packfix",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Pack Fixes",
+  "description": "A mod to fix the pack list menu oversights.",
   "authors": [
-    "Turnip Labs"
+    "Cookie (FatherCheese)"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"cookie.packfix.PackFixes"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"packfix.mixins.json"
   ],
 
   "depends": {

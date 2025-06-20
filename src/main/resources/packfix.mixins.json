@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cookie.packfix.extra.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "AvailableTexturePackButtonMixin",
+    "SelectedTexturePackButtonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
